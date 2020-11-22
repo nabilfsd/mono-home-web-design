@@ -1,0 +1,377 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+    /* header section */
+    .header-area {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        overflow: hidden;
+        padding: 0 60px;
+        border-bottom: 1px solid #d6d3d3;
+        z-index: 9;
+        margin: 10px 0;
+    }
+
+    /* slider section */
+    .single-slider-wrapper > h1 {
+        color: #595959;
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .slider-icon {
+        margin-top: -350px;
+        margin-bottom: 20px;
+    }
+
+    .purchase-btn {
+        padding: 10px 30px;
+        border: 1px solid #505cfd;
+        color: #595959;
+        border-radius: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    /* features section */
+    .features-content {
+        border-radius: 12px;
+        margin-top: -400px;
+        position: relative;
+    }
+
+    .features-content-wrapper > h2 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .features-content-wrapper > p {
+        font-size: 14px;
+        padding: 0 50px;
+    }
+
+    .features-about > h1 {
+        font-size: 28px;
+        font-weight: 600;
+        color: #404044;
+    }
+
+    .features-about > button {
+        padding: 10px 30px;
+        border: 1px solid #505cfd;
+        color: #595959;
+        border-radius: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    /* subscribe section */
+    #subscribe h1 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #404044;
+        margin-top: -40px;
+    }
+
+    #subscribe p {
+        font-size: 15px;
+        color: #595959;
+        padding: 0;
+        /* margin: 0; */
+        margin-bottom: 20px;
+    }
+
+    .form-group > .input {
+        border-radius: 30px;
+        height: 20px;
+        width: 470px;
+        margin-right: 10px;
+        padding: 15px 15px;
+        color: #808080;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .form-group > button {
+        background-color: #4f5bfd;
+        border-radius: 30px;
+        margin-left: 0;
+        width: 470px;
+        height: 35px;
+        font-size: 15px;
+        padding: 0;
+    }
+
+    /* services section */
+    #services {
+        padding: 0;
+    }
+
+    .services-items-wrapper {
+        background-color: white;
+        border: 1px solid #ebebeb;
+        padding: 0 40px;
+        margin-bottom: 10px;
+    }
+
+    /* pricing section */
+    #pricing {
+        background-color: #E7E8FE;
+        padding: 85px 20px;
+    }
+
+    .pricing-item {
+        width: 100%;
+    }
+
+    .pricing-wrapper {
+        height: 480px;
+        background-color: #E7E8FE;
+        border: 1px solid #CFD1FC;
+        margin-bottom: 10px;
+    }
+
+    /* counter section */
+    .counter-wrapper {
+        color: white;
+        margin-bottom: 50px;
+    }
+
+    /* testimonial section */
+    .testimonial-slider-content {
+        background: #FFFFFF;
+        opacity: 0.9;
+        padding: 5px;
+        border: 2px solid #505cfd;
+    }
+
+    /* footer section */
+    .footer-upper-area h2 {
+        font-size: 22px;
+        color: #FFFFFF;
+        font-weight: 600;
+        margin-bottom: 40px;
+        margin-top: 50px;
+    }
+
+    .thumb-content.d-flex {
+        margin-top: 15px;
+    }
+
+    .cp-right-p > p {
+        font-size: 15px;
+        color: #777777;
+        margin-right: 15px;
+        margin-left: 0;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* header section */
+    .header-area {
+        padding: 10px 60px;
+        border-bottom: none;
+    }
+
+    /* slider section */
+    .single-slider-wrapper > h1 {
+        font-size: 45px;
+    }
+
+    .single-slider-wrapper {
+        margin-top: -465px;
+    }
+
+    /* features section */
+    .features-content {
+        margin-top: -450px;
+        padding: 0 20px;
+    }
+
+    .features-content-wrapper {
+        padding: 0 60px;
+    }
+
+    /* subscribe section */
+    #subscribe h1 {
+        font-size: 25px;
+        font-weight: 600;
+        color: #404044;
+    }
+
+    .form-group > .input {
+        border-radius: 30px;
+        height: 30px;
+        width: 150px;
+        margin-right: 5px;
+        padding: 20px 15px;
+        color: #808080;
+        font-size: 15px;
+    }
+
+    .form-group > button {
+        background-color: #4f5bfd;
+        border-radius: 30px;
+        margin-left: 0;
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    /* services section */
+    .services-items-wrapper {
+        background-color: white;
+        border: 1px solid #ebebeb;
+        padding: 0 40px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* pricing section */
+    .pricing-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* counter section */
+    .counter-wrapper > i {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .counter-wrapper > span {
+        font-size: 25px;
+    }
+
+    .counter-wrapper > p {
+        font-size: 14px;
+    }
+
+    /* footer section */
+    .footer-upper-area h2 {
+        font-size: 22px;
+        color: #FFFFFF;
+        font-weight: 600;
+        margin-bottom: 40px;
+        margin-top: 50px;
+    }
+
+    .footer-blog-news-wrapper .thumb-content {
+        margin-bottom: 10px;
+    }
+
+    .cp-right-p > p {
+        font-size: 15px;
+        color: #777777;
+        margin-right: 30px;
+        margin-left: 0;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* header section */
+    .header-area {
+        padding: 10px 60px;
+        border-bottom: none;
+    }
+
+    /* slider section */
+    .single-slider-wrapper {
+        margin-top: -350px;
+    }
+
+    .slider-icon {
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+    .single-slider-wrapper > h1 {
+        font-size: 55px;
+    }
+
+    /* features section */
+    .features-content {
+        margin-top: -300px;
+        padding: 0 20px;
+    }
+
+    .features-about > h1 {
+        font-size: 25px;
+    }
+
+    .features-about > button {
+        padding: 6px 25px;
+        margin-bottom: 15px;
+    }
+
+    /* subscribe section */
+    #subscribe h1 {
+        font-size: 28px;
+    }
+
+    .form-group > .input {
+        border-radius: 30px;
+        height: 40px;
+        width: 190px;
+        margin-right: 10px;
+        padding: 20px 20px;
+        color: #808080;
+        font-size: 14px;
+    }
+
+    .form-group > button {
+        background-color: #4f5bfd;
+        border-radius: 30px;
+        margin-left: 0;
+        width: 130px;
+        height: 40px;
+    }
+
+    .right-side-links li {
+        margin-right: 50px;
+    }
+
+    /* footer section */
+    .footer-upper-area h2 {
+        margin-top: 50px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* header section */
+    .main-menu ul li {
+        margin-left: 21px;
+    }
+
+    .hire-us-btn {
+        margin-left: 21px;
+    }
+
+    /* slider section */
+    .slider-icon {
+        margin-top: -165px;
+        margin-bottom: 20px;
+    }
+
+    /* features section */
+    .features-content .features-content-wrapper {
+        padding: 0 10px;
+    }
+
+    /* footer section */
+    .right-side-links li {
+        margin-right: 0;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
