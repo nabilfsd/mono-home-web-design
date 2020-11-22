@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="178102a8-f380-4eab-bebe-a13474a8a2ef" name="Default Changelist" comment="fixing responsive issue and replace local css and js file with cdn.">
+    <list default="true" id="178102a8-f380-4eab-bebe-a13474a8a2ef" name="Default Changelist" comment="adding jquery migration plugin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -65,7 +65,7 @@
       <updated>1606034713960</updated>
       <workItem from="1606034715454" duration="2873000" />
       <workItem from="1606045357161" duration="3391000" />
-      <workItem from="1606050850372" duration="1650000" />
+      <workItem from="1606050850372" duration="2013000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1606040728767</created>
@@ -88,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606051652970</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding jquery migration plugin">
+      <created>1606052634104</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606052634104</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,16 +116,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="fixing responsive issue and replace local css and js file with cdn." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing responsive issue and replace local css and js file with cdn." />
+    <MESSAGE value="adding jquery migration plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding jquery migration plugin" />
   </component>
   <component name="WindowStateProjectService">
     <state x="263" y="133" key="IDE.errors.dialog" timestamp="1606040800687">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state x="263" y="133" key="IDE.errors.dialog/0.32.1366.736@0.32.1366.736" timestamp="1606040800687" />
-    <state x="275" y="132" key="Vcs.Push.Dialog.v2" timestamp="1606051663841">
+    <state x="275" y="132" key="Vcs.Push.Dialog.v2" timestamp="1606052646438">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state x="275" y="132" key="Vcs.Push.Dialog.v2/0.32.1366.736@0.32.1366.736" timestamp="1606051663841" />
+    <state x="275" y="132" key="Vcs.Push.Dialog.v2/0.32.1366.736@0.32.1366.736" timestamp="1606052646438" />
   </component>
 </project>
