@@ -79,6 +79,7 @@ $(document).ready(function () {
         time: 2000
     });
 
+
     //-- scroll up jquery --//
     $(function () {
         $.scrollUp({
